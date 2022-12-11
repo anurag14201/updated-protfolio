@@ -1,0 +1,20 @@
+import React from 'react';
+
+const Skill = () => {
+    return (
+        <div>
+            <h1> DONT BE A STRANGER</h1>
+            <div>
+                <div className="card w-full bg-base-100">
+                    <div className="card-body">
+                        <h2 className="text-center text-xl font-bold">Front-End</h2>
+                        <p>React</p>
+                        <p>React</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Skill;
