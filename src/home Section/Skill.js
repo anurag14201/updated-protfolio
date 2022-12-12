@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactImg from '../../img/react-1.svg';
+import ReactImg from '../img/physics.png';
 
 const Skill = () => {
     return (
