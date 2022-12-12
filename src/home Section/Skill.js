@@ -12,7 +12,7 @@ const Skill = () => {
             <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4'>
                 <div className="card w-full bg-base-100">
                     <div className="card-body">
-                        <h2 className="card-title">DONT BE A STRANGER</h2>
+                        <h2 className="card-title text-gray-700	">DONT BE A STRANGER</h2>
                         <div className='flex  justify-start font-bold  font-Din  items-center text-xs md:text-sm space-x-4 md:space-x-5 lg:space-x-6'>
                             <a href='https://github.com/anurag14201' target="_blank" rel='noopener noreferrer'>
                                 <img className='w-6' src={git} alt=''></img>
@@ -40,12 +40,14 @@ const Skill = () => {
                 </div>
                 <div className="card w-full bg-base-100">
                     <div className="card-body">
-                        <h2 className="card-title uppercase text-end">Do you have any ideas,Then knock me amd Tell me about it.</h2>
+                        <h2 className="card-title uppercase text-center text-gray-700">Download CV</h2>
                     </div>
                 </div>
             </div>
 
-
+            <div>
+                <h1 className='uppercase text-center m-8 pt-32 text-3xl font-bold text-gray-600	'>Skills</h1>
+            </div>
 
             <div>
                 <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1  '>

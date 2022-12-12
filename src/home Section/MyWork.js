@@ -25,7 +25,7 @@ const MyWork = () => {
     return (
         <div>
             <div>
-                <h1 className='text-center m-8 pt-32 text-3xl font-bold uppercase'>My Work</h1>
+                <h1 className='text-center m-8 pt-32 text-3xl font-bold text-gray-600 uppercase'>My Work</h1>
             </div>
             <div className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4'>
                 <div className="card card-compact w-full bg-base-100 shadow-xl duration-500 hover:bg-gray-200 " data-aos="fade-right">
