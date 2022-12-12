@@ -13,6 +13,7 @@ import work9 from "../img/pin.png";
 import work10 from "../img/panda.png";
 import work11 from "../img/insta.png";
 import work12 from "../img/world.png";
+import Contract from './Contract';
 
 
 
@@ -111,6 +112,9 @@ const MyWork = () => {
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                     </div>
                 </div>
+            </div>
+            <div className='pt-64'>
+                <Contract></Contract>
             </div>
         </div>
     );

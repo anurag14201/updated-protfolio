@@ -1,6 +1,6 @@
 import React from 'react';
 import MyWork from './MyWork';
-// import ReactImg from '../img/physics.png';
+import ReactImg from '../img/Icons/physics.png';
 
 const Skill = () => {
     return (
@@ -25,7 +25,7 @@ const Skill = () => {
                     <div className="card w-full bg-base-100">
                         <div className="card-body">
                             <h2 className="text-center text-xl font-bold">Front-End</h2>
-                            {/* <img src={ReactImg} alt='react'>react</img> */}
+                            <img src={ReactImg} alt='react'></img>
                             <p>React</p>
                         </div>
                     </div>
