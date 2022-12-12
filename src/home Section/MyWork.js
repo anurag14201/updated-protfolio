@@ -1,4 +1,17 @@
 import React from 'react';
+import work1 from "../img/Screenshot 2022-12-12 153819.png";
+import work2 from "../img/Screenshot 2022-12-12 155125.png";
+import work3 from "../img/Food.png";
+import work4 from "../img/football.png";
+import work5 from "../img/all in one.png";
+import work6 from "../img/weddd2022-12-12 161614.png";
+import work7 from "../img/online tem.png";
+import work8 from "../img/cal.png";
+import work9 from "../img/pin.png";
+import work10 from "../img/panda.png";
+import work11 from "../img/insta.png";
+
+
 
 const MyWork = () => {
     return (
@@ -6,13 +19,82 @@ const MyWork = () => {
             <div>
                 <h1 className='text-center m-8 pt-32 text-3xl font-bold uppercase'>My Work</h1>
             </div>
-            <div className='grid'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4'>
                 <div className="card card-compact w-full bg-base-100 shadow-xl">
-                    <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+                    <figure><img src={work1} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">Shoes!</h2>
+                        <h2 className="card-title">School Para Puja </h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
-
+                    </div>
+                </div>
+                <div className="card card-compact w-full bg-base-100 shadow-xl">
+                    <figure><img src={work2} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">School Para Puja </h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+                <div className="card card-compact w-full bg-base-100 shadow-xl">
+                    <figure><img src={work3} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">School Para Puja </h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+                <div className="card card-compact w-full bg-base-100 shadow-xl">
+                    <figure><img src={work4} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">School Para Puja </h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+                <div className="card card-compact w-full bg-base-100 shadow-xl">
+                    <figure><img src={work5} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">School Para Puja </h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+                <div className="card card-compact w-full bg-base-100 shadow-xl">
+                    <figure><img src={work6} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">School Para Puja </h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+                <div className="card card-compact w-full bg-base-100 shadow-xl">
+                    <figure><img src={work7} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">School Para Puja </h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+                <div className="card card-compact w-full bg-base-100 shadow-xl">
+                    <figure><img src={work8} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">School Para Puja </h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+                <div className="card card-compact w-full bg-base-100 shadow-xl">
+                    <figure><img src={work9} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">School Para Puja </h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+                <div className="card card-compact w-full bg-base-100 shadow-xl">
+                    <figure><img src={work10} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">School Para Puja </h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+                <div className="card card-compact w-full bg-base-100 shadow-xl">
+                    <figure><img src={work11} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">School Para Puja </h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
                     </div>
                 </div>
             </div>
