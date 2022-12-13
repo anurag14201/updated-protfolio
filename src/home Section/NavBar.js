@@ -18,7 +18,7 @@ const NavBar = () => {
                                 </a>
 
                             </li>
-                            <li><a href='/'>Contract</a></li>
+                            <li><a href='/'>Hire</a></li>
                         </ul>
                     </div>
                     <a href='/' className="btn btn-ghost normal-case text-xl m-5 pl-12">ANURAG DATTA</a>
@@ -33,7 +33,7 @@ const NavBar = () => {
                             </a>
 
                         </li>
-                        <li><a href='/'>Contract</a></li>
+                        <li><a href='/'>Hire</a></li>
                     </ul>
                 </div>
 
