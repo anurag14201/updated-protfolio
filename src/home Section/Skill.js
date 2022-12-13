@@ -40,7 +40,8 @@ const Skill = () => {
                 </div>
                 <div className="card w-full bg-base-100">
                     <div className="card-body">
-                        <h2 className="card-title uppercase text-center text-gray-700">Download CV</h2>
+                        <h2 className="uppercase text-center font-medium text-xl text-gray-700">Download CV</h2>
+                        <a className='bg-info w-32 text-center text-white font-bold rounded-full p-2' href='/#' target="_blank" alt='re'>Resume</a>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Home from './Home';
 
 const NavBar = () => {
     return (
@@ -10,33 +12,32 @@ const NavBar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content font-bold mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a href='/'>Home</a></li>
-                            <li><a href='/'>Skill</a></li>
-                            <li tabIndex={0}>
-                                <a href='/' className="justify-between">
-                                    My Work
-                                </a>
+                            <li><Link to='/home'>Home</Link></li>
+                            <li><Link to='/Skill'>Skill</Link></li>
+                            <li>
+                                <Link to='/work'>My work</Link>
 
                             </li>
-                            <li><a href='/'>Hire</a></li>
+                            <li><Link to='/contract'>Hire</Link></li>
                         </ul>
                     </div>
-                    <a href='/' className="btn btn-ghost normal-case text-xl m-5 pl-12">ANURAG DATTA</a>
+                    <Link to='/home' className="btn btn-ghost normal-case text-xl m-5 pl-12">ANURAG DATTA</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><a href='/'>Home</a></li>
-                        <li><a href='/'>Skill</a></li>
-                        <li tabIndex={0}>
-                            <a href='/'>
-                                My Work
-                            </a>
+                        <li><Link to='/home'>Home</Link></li>
+                        <li><Link to='/Skill'>Skill</Link></li>
+                        <li>
+                            <Link to='/work'>My work</Link>
 
                         </li>
-                        <li><a href='/'>Hire</a></li>
+                        <li><Link to='/contract'>Hire</Link></li>
                     </ul>
                 </div>
 
+            </div>
+            <div>
+                <Home></Home>
             </div>
         </div>
     );

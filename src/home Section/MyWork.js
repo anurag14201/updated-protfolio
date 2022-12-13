@@ -13,7 +13,6 @@ import work9 from "../img/pin.png";
 import work10 from "../img/panda.png";
 import work11 from "../img/insta.png";
 import work12 from "../img/world.png";
-import Contract from './Contract';
 
 
 
@@ -28,17 +27,20 @@ const MyWork = () => {
                 <h1 className='text-center m-8 pt-32 text-3xl font-bold text-gray-600 uppercase'>My Work</h1>
             </div>
             <div className='grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4'>
-                <div className="card card-compact w-full bg-base-100 shadow-xl duration-500 hover:bg-gray-200 " data-aos="fade-right">
+                <div className="card card-compact w-full bg-base-100 shadow-xl" data-aos="fade-right">
                     <figure><img src={work1} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">School Para Puja </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p>
+                            <button className="btn-info rounded w-16">JavaScript</button>
+                            <button className="btn-info rounded w-16">JavaScript</button>
+                        </p>
                     </div>
                 </div>
                 <div className="card card-compact w-full bg-base-100 shadow-xl  " data-aos="fade-up">
                     <figure><img src={work2} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">School Para Puja </h2>
+                        <h2 className="card-title"> </h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                     </div>
                 </div>
@@ -113,9 +115,7 @@ const MyWork = () => {
                     </div>
                 </div>
             </div>
-            <div className='pt-64'>
-                <Contract></Contract>
-            </div>
+
         </div>
     );
 };
