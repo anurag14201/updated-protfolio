@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Home from './Home';
+import Typewriter from 'typewriter-effect';
+
 
 const NavBar = () => {
     return (
@@ -21,7 +23,13 @@ const NavBar = () => {
                             <li><Link to='/contract'>Hire</Link></li>
                         </ul>
                     </div>
-                    <Link to='/home' className="btn btn-ghost normal-case text-xl m-5 pl-12">ANURAG DATTA</Link>
+                    <Link to='/home' className="btn btn-ghost normal-case text-xl m-5 pl-12"><Typewriter
+                        options={{
+                            strings: ['ANURAG DATTA'],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    /></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
