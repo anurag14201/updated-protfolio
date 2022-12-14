@@ -44,9 +44,7 @@ const NavBar = () => {
                 </div>
 
             </div>
-            <div>
-                <Home></Home>
-            </div>
+
         </div>
     );
 };

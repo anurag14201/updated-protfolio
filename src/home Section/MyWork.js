@@ -13,6 +13,7 @@ import work9 from "../img/pin.png";
 import work10 from "../img/panda.png";
 import work11 from "../img/insta.png";
 import work12 from "../img/world.png";
+import Contract from './Contract';
 
 
 
@@ -115,7 +116,9 @@ const MyWork = () => {
                     </div>
                 </div>
             </div>
-
+            <div>
+                <Contract></Contract>
+            </div>
         </div>
     );
 };
