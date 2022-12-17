@@ -58,28 +58,28 @@ const Skill = () => {
                             <div className='flex gap-12'>
                                 <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3'>
                                     <div className='m-4'>
-                                        <img className='w-12' src={ReactImg} alt='react'></img>
-                                        <p>React</p>
+                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
                                     </div>
                                     <div className='m-4'>
-                                        <img className='w-12' src={ReactImg} alt='react'></img>
-                                        <p>React</p>
+                                        <img className='lg:w-16 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
                                     </div>
                                     <div className='m-4'>
-                                        <img className='w-12' src={ReactImg} alt='react'></img>
-                                        <p>React</p>
+                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
                                     </div>
                                     <div className='m-4'>
-                                        <img className='w-12' src={ReactImg} alt='react'></img>
-                                        <p>React</p>
+                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
                                     </div>
                                     <div className='m-4'>
-                                        <img className='w-12' src={ReactImg} alt='react'></img>
-                                        <p>React</p>
+                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
                                     </div>
                                     <div className='m-4'>
-                                        <img className='w-12' src={ReactImg} alt='react'></img>
-                                        <p>React</p>
+                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
                                     </div>
                                 </div>
                             </div>
@@ -89,18 +89,66 @@ const Skill = () => {
                     <div className="card w-full bg-base-100">
                         <div className="card-body">
                             <h2 className="text-center text-xl font-bold">Back-End</h2>
-                            <div>
-                                <img className='w-12' src={ReactImg} alt='react'></img>
-                                <p>React</p>
+                            <div className='flex gap-12'>
+                                <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3'>
+                                    <div className='m-4'>
+                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
+                                    </div>
+                                    <div className='m-4'>
+                                        <img className='lg:w-16 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
+                                    </div>
+                                    <div className='m-4'>
+                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
+                                    </div>
+                                    <div className='m-4'>
+                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
+                                    </div>
+                                    <div className='m-4'>
+                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
+                                    </div>
+                                    <div className='m-4'>
+                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div className="card w-full bg-base-100">
                         <div className="card-body">
                             <h2 className="text-center text-xl font-bold">Soft-Skills</h2>
-                            <div>
-                                <img className='w-12' src={ReactImg} alt='react'></img>
-                                <p>React</p>
+                            <div className='flex gap-12'>
+                                <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3'>
+                                    <div className='m-4'>
+                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
+                                    </div>
+                                    <div className='m-4'>
+                                        <img className='lg:w-16 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
+                                    </div>
+                                    <div className='m-4'>
+                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
+                                    </div>
+                                    <div className='m-4'>
+                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
+                                    </div>
+                                    <div className='m-4'>
+                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
+                                    </div>
+                                    <div className='m-4'>
+                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
