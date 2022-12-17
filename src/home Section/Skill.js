@@ -56,25 +56,52 @@ const Skill = () => {
                         <div className="card-body">
                             <h2 className="text-center text-xl font-bold">Front-End</h2>
                             <div className='flex gap-12'>
-                                <img className='w-12' src={ReactImg} alt='react'></img>
-                                <img className='w-12' src={ReactImg} alt='react'></img>
-                                <img className='w-12' src={ReactImg} alt='react'></img>
+                                <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3'>
+                                    <div className='m-4'>
+                                        <img className='w-12' src={ReactImg} alt='react'></img>
+                                        <p>React</p>
+                                    </div>
+                                    <div className='m-4'>
+                                        <img className='w-12' src={ReactImg} alt='react'></img>
+                                        <p>React</p>
+                                    </div>
+                                    <div className='m-4'>
+                                        <img className='w-12' src={ReactImg} alt='react'></img>
+                                        <p>React</p>
+                                    </div>
+                                    <div className='m-4'>
+                                        <img className='w-12' src={ReactImg} alt='react'></img>
+                                        <p>React</p>
+                                    </div>
+                                    <div className='m-4'>
+                                        <img className='w-12' src={ReactImg} alt='react'></img>
+                                        <p>React</p>
+                                    </div>
+                                    <div className='m-4'>
+                                        <img className='w-12' src={ReactImg} alt='react'></img>
+                                        <p>React</p>
+                                    </div>
+                                </div>
                             </div>
-                            <p>React</p>
+
                         </div>
                     </div>
                     <div className="card w-full bg-base-100">
                         <div className="card-body">
                             <h2 className="text-center text-xl font-bold">Back-End</h2>
-                            <img className='w-12' src={ReactImg} alt='react'></img>
-                            <p>React</p>
+                            <div>
+                                <img className='w-12' src={ReactImg} alt='react'></img>
+                                <p>React</p>
+                            </div>
                         </div>
                     </div>
                     <div className="card w-full bg-base-100">
                         <div className="card-body">
                             <h2 className="text-center text-xl font-bold">Soft-Skills</h2>
-                            <img className='w-12' src={ReactImg} alt='react'></img>
-                            <p>React</p>
+                            <div>
+                                <img className='w-12' src={ReactImg} alt='react'></img>
+                                <p>React</p>
+                            </div>
                         </div>
                     </div>
                 </div>
