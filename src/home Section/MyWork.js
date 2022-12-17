@@ -42,28 +42,29 @@ const MyWork = () => {
                     <figure><img src={work2} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title"> </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p><button className="btn-info rounded w-16">JavaScript</button>
+                        </p>
                     </div>
                 </div>
                 <div className="card card-compact w-full bg-base-100 shadow-xl" data-aos="fade-left">
                     <figure><img src={work3} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">School Para Puja </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p><button className="btn-info rounded w-16">JavaScript</button></p>
                     </div>
                 </div>
                 <div className="card card-compact w-full bg-base-100 shadow-xl" data-aos="fade-right">
                     <figure><img src={work4} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">School Para Puja </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p><button className="btn-info rounded w-16">JavaScript</button></p>
                     </div>
                 </div>
                 <div className="card card-compact w-full bg-base-100 shadow-xl" data-aos="fade-up">
                     <figure><img src={work5} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">School Para Puja </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p><button className="btn-info rounded w-16">JavaScript</button></p>
                     </div>
                 </div>
                 <div className="card card-compact w-full bg-base-100 shadow-xl" data-aos="fade-left">
