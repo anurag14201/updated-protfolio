@@ -10,7 +10,7 @@ import html from "../img/Icons/html5.png"
 import Css3 from '../img/Icons/Css 3.png'
 import figma from '../img/Icons/figma.png'
 import firebase from '../img/Icons/firebase.png'
-import next from '../img/Icons/Nextjs.png'
+import next from '../img/Icons/Next.png'
 import nodejs from '../img/Icons/nodejs.png'
 import netlify from '../img/Icons/Netlify.png'
 import justgit from '../img/Icons/Git.png'
@@ -18,6 +18,7 @@ import Github from '../img/Icons/github.png';
 import rest from '../img/Icons/rest.png';
 import router from '../img/Icons/Router.png';
 import javasc from '../img/Icons/JAvaScprit.png';
+import mypdf from '../img/files/Anurag-datta-CV.pdf';
 
 
 
@@ -58,7 +59,7 @@ const Skill = () => {
                 <div className="card w-full bg-base-100">
                     <div className="card-body">
                         <h2 className="uppercase text-center font-medium text-xl text-gray-700">Download CV</h2>
-                        <a className='bg-info w-32 text-center text-white font-bold rounded-full p-2' href='/#' target="_blank" alt='re'>Resume</a>
+                        <a className='bg-info w-32 text-center text-white font-bold rounded-full p-2' href={mypdf} download='My_file.pdf'>Resume</a>
                     </div>
                 </div>
             </div>
@@ -75,27 +76,27 @@ const Skill = () => {
                             <div className='flex gap-12'>
                                 <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3'>
                                     <div className='m-4'>
-                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={ReactImg} alt='react'></img>
+                                        <img className='lg:w-18 md:w-16 sm:w-12' src={ReactImg} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>React</p>
                                     </div>
                                     <div className='m-4'>
-                                        <img className='lg:w-16 lg:w-16 sm:w-32' src={html} alt='react'></img>
+                                        <img className='lg:w-16 md:w-16 sm:w-12' src={html} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>HTML</p>
                                     </div>
                                     <div className='m-4'>
-                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={Css3} alt='react'></img>
+                                        <img className='lg:w-18 md:w-16 sm:w-12' src={Css3} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>CSS</p>
                                     </div>
                                     <div className='m-4'>
-                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={next} alt='react'></img>
+                                        <img className='lg:w-18 md:w-16 sm:w-12' src={next} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Next JS</p>
                                     </div>
                                     <div className='m-4'>
-                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={router} alt='react'></img>
+                                        <img className='lg:w-18 md:w-16 sm:w-12' src={router} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>React Router</p>
                                     </div>
                                     <div className='m-4'>
-                                        <img className='lg:w-18 lg:w-16 sm:w-32' src={javasc} alt='react'></img>
+                                        <img className='lg:w-18 md:w-16 sm:w-12' src={javasc} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>JavaScprit</p>
                                     </div>
                                 </div>
