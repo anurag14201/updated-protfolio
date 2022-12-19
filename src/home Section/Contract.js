@@ -7,6 +7,7 @@ import Aos from 'aos';
 import "aos/dist/aos.css";
 import emailjs from '@emailjs/browser';
 import wtb from '../img/wtb.png';
+import Typewriter from 'typewriter-effect';
 
 
 
@@ -44,6 +45,15 @@ const Contract = () => {
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat'
             }}>
+                <div>
+                    <h1 className='text-center font-bold text-transparent text-3xl text-white pt-12'><Typewriter
+                        options={{
+                            strings: ["Let's have a cup of tea or coffee", "Get in Touch now", "Have an idea?Then Tell me about it."],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    /></h1>
+                </div>
                 <div>
                     <h1 className='text-center m-8 pt-32 text-3xl font-bold text-white uppercase'>
                         HIRE
