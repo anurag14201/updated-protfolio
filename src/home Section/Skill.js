@@ -6,8 +6,8 @@ import insta from '../img/Icons/instagram.png';
 import facebook from '../img/Icons/face.png';
 import twitter from '../img/Icons/twitter.png';
 import linkedin from '../img/Icons/linkedin.png';
-import html from "../img/Icons/html5.png"
-import Css3 from '../img/Icons/Css 3.png'
+import html from "../img/Icons/html-5.png"
+import Css3 from '../img/Icons/css.png'
 import figma from '../img/Icons/figma.png'
 import firebase from '../img/Icons/firebase.png'
 import next from '../img/Icons/Next.png'
@@ -18,6 +18,10 @@ import Github from '../img/Icons/github.png';
 import rest from '../img/Icons/rest.png';
 import router from '../img/Icons/Router.png';
 import javasc from '../img/Icons/js.png';
+import mongo from '../img/Icons/mongoDB.png';
+import express from '../img/Icons/expressjs.png';
+import bootstrap from '../img/Icons/bootstrap.png';
+import wind from '../img/Icons/Tailwind.png';
 import mypdf from '../img/files/Anurag-datta-CV.pdf';
 
 
@@ -101,6 +105,14 @@ const Skill = () => {
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={javasc} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>JavaScprit</p>
                                     </div>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={bootstrap} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>BootStrap</p>
+                                    </div>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={wind} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>Tailwind CSS</p>
+                                    </div>
                                 </div>
                             </div>
 
@@ -120,21 +132,21 @@ const Skill = () => {
                                         <p className='text-center text-gray-500 font-bold '>Rest API</p>
                                     </div>
                                     <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={mongo} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>MongoDB</p>
+                                    </div>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={express} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>Expressjs</p>
+                                    </div>
+                                    {/* <div className='m-8'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>React</p>
                                     </div>
                                     <div className='m-8'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>React</p>
-                                    </div>
-                                    <div className='m-8'>
-                                        <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
-                                        <p className='text-center text-gray-500 font-bold '>React</p>
-                                    </div>
-                                    <div className='m-8'>
-                                        <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
-                                        <p className='text-center text-gray-500 font-bold '>React</p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
@@ -164,10 +176,10 @@ const Skill = () => {
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={netlify} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Netlify</p>
                                     </div>
-                                    <div className='m-8'>
+                                    {/* <div className='m-8'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>React</p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

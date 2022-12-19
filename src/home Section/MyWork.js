@@ -13,6 +13,7 @@ import work9 from "../img/pin.png";
 import work10 from "../img/panda.png";
 import work11 from "../img/insta.png";
 import work12 from "../img/world.png";
+import travel from "../img/travel.png";
 import Contract from './Contract';
 
 
@@ -38,10 +39,20 @@ const MyWork = () => {
                         </p>
                     </div>
                 </div>
+                <div className="card card-compact w-full bg-base-100 shadow-xl" data-aos="fade-right">
+                    <figure><img src={travel} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Tour Travel</h2>
+                        <p>
+                            <button className="btn-info rounded w-16">JavaScript</button>
+                            <button className="btn-info rounded w-16">JavaScript</button>
+                        </p>
+                    </div>
+                </div>
                 <div className="card card-compact w-full bg-base-100 shadow-xl  " data-aos="fade-up">
                     <figure><img src={work2} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title"> </h2>
+                        <h2 className="card-title">Doctor's In Town </h2>
                         <p><button className="btn-info rounded w-16">JavaScript</button>
                         </p>
                     </div>
