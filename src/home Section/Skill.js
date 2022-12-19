@@ -1,10 +1,10 @@
 import React from 'react';
 import MyWork from './MyWork';
-import ReactImg from '../img/Icons/physics.png';
+import ReactImg from '../img/Icons/react.png';
 import git from '../img/Icons/github.png';
-import insta from '../img/Icons/insta.png';
+import insta from '../img/Icons/instagram.png';
 import facebook from '../img/Icons/face.png';
-import twitter from '../img/Icons/Twitter.png';
+import twitter from '../img/Icons/twitter.png';
 import linkedin from '../img/Icons/linkedin.png';
 import html from "../img/Icons/html5.png"
 import Css3 from '../img/Icons/Css 3.png'
@@ -17,7 +17,7 @@ import justgit from '../img/Icons/Git.png'
 import Github from '../img/Icons/github.png';
 import rest from '../img/Icons/rest.png';
 import router from '../img/Icons/Router.png';
-import javasc from '../img/Icons/JAvaScprit.png';
+import javasc from '../img/Icons/js.png';
 import mypdf from '../img/files/Anurag-datta-CV.pdf';
 
 
@@ -74,31 +74,31 @@ const Skill = () => {
                 <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1  '>
                     <div className="card w-full bg-base-100">
                         <div className="card-body">
-                            <h2 className="text-center text-xl font-bold">Front-End</h2>
-                            <div className='flex gap-12'>
+                            <h2 className="text-center text-xl font-bold uppercase ">Front-End</h2>
+                            <div className=''>
                                 <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3'>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={ReactImg} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>React</p>
                                     </div>
-                                    <div className='m-4'>
-                                        <img className='lg:w-16 md:w-16 sm:w-12' src={html} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={html} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>HTML</p>
                                     </div>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={Css3} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={Css3} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>CSS</p>
                                     </div>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={next} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={next} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Next JS</p>
                                     </div>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={router} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={router} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>React Router</p>
                                     </div>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={javasc} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={javasc} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>JavaScprit</p>
                                     </div>
                                 </div>
@@ -108,31 +108,31 @@ const Skill = () => {
                     </div>
                     <div className="card w-full bg-base-100">
                         <div className="card-body">
-                            <h2 className="text-center text-xl font-bold">Back-End</h2>
+                            <h2 className="text-center text-xl font-bold uppercase">Back-End</h2>
                             <div className='flex gap-12'>
                                 <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3'>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={nodejs} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={nodejs} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Node JS</p>
                                     </div>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={rest} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={rest} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Rest API</p>
                                     </div>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={ReactImg} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>React</p>
                                     </div>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={ReactImg} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>React</p>
                                     </div>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={ReactImg} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>React</p>
                                     </div>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={ReactImg} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>React</p>
                                     </div>
                                 </div>
@@ -141,31 +141,31 @@ const Skill = () => {
                     </div>
                     <div className="card w-full bg-base-100">
                         <div className="card-body">
-                            <h2 className="text-center text-xl font-bold">Soft-Skills</h2>
+                            <h2 className="text-center text-xl font-bold uppercase">Tools</h2>
                             <div className='flex gap-12'>
                                 <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3'>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={justgit} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={justgit} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Git</p>
                                     </div>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={Github} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={Github} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Github</p>
                                     </div>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={firebase} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={firebase} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Firebase</p>
                                     </div>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={figma} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={figma} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Figma</p>
                                     </div>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={netlify} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={netlify} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Netlify</p>
                                     </div>
-                                    <div className='m-4'>
-                                        <img className='lg:w-18 md:w-16 sm:w-12' src={ReactImg} alt='react'></img>
+                                    <div className='m-8'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>React</p>
                                     </div>
                                 </div>
