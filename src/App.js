@@ -9,7 +9,7 @@ import Skill from './home Section/Skill';
 
 function App() {
   return (
-    <div>
+    <div className='h-screen'>
       <NavBar></NavBar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>

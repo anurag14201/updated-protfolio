@@ -75,114 +75,152 @@ const Skill = () => {
             </div>
 
             <div>
-                <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1'>
-                    <div className="card w-full bg-base-100">
-                        <div className="card-body">
-                            <h2 className="text-center text-xl font-bold uppercase ">Front-End</h2>
-                            <div className=''>
-                                <div className='grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 xxs:grid-cols-3'>
-                                    <div className='m-8'>
+                <div className='md:flex md:justify-between md:items-start space-y-16 md:space-y-0 md:space-x-14  px-2'>
+                    <div className="space-y-2">
+                        <h2 className="text-center text-xl font-bold uppercase ">Front-End</h2>
+                        <div className=''>
+                            <div className='grid grid-cols-3  justify-items-center gap-2 text-lg font-semibold capitalize'>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>React</p>
                                     </div>
-                                    <div className='m-8'>
+                                </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={html} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>HTML</p>
                                     </div>
-                                    <div className='m-8'>
+                                </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={Css3} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>CSS</p>
                                     </div>
-                                    <div className='m-8'>
+                                </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={next} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Next JS</p>
                                     </div>
-                                    <div className='m-8'>
+                                </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={router} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>React Router</p>
                                     </div>
-                                    <div className='m-8'>
+                                </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={javasc} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>JavaScprit</p>
                                     </div>
-                                    <div className='m-8'>
+                                </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={bootstrap} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>BootStrap</p>
                                     </div>
-                                    <div className='m-8'>
+                                </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={wind} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Tailwind CSS</p>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
+
                     </div>
-                    <div className="card w-full bg-base-100">
-                        <div className="card-body">
-                            <h2 className="text-center text-xl font-bold uppercase">Back-End</h2>
-                            <div className='flex gap-12'>
-                                <div className='grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 xxs:grid-cols-3'>
-                                    <div className='m-8'>
+                    <div className="space-y-2">
+                        <h2 className="text-center text-xl font-bold uppercase ">Back-End</h2>
+                        <div className=''>
+                            <div className='grid grid-cols-3  justify-items-center gap-2 text-lg font-semibold capitalize'>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={nodejs} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Node JS</p>
                                     </div>
-                                    <div className='m-8'>
+                                </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={rest} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Rest API</p>
                                     </div>
-                                    <div className='m-8'>
+                                </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={mongo} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>MongoDB</p>
                                     </div>
-                                    <div className='m-8'>
-                                        <img className='lg:w-12 md:w-12 sm:w-12' src={express} alt='react'></img>
-                                        <p className='text-center text-gray-500 font-bold '>Expressjs</p>
-                                    </div>
-                                    {/* <div className='m-8'>
-                                        <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
-                                        <p className='text-center text-gray-500 font-bold '>React</p>
-                                    </div>
-                                    <div className='m-8'>
-                                        <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
-                                        <p className='text-center text-gray-500 font-bold '>React</p>
-                                    </div> */}
                                 </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={express} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>Express JS</p>
+                                    </div>
+                                </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>JWT</p>
+                                    </div>
+                                </div>
+
+
                             </div>
                         </div>
+
                     </div>
-                    <div className="card w-full bg-base-100">
-                        <div className="card-body">
-                            <h2 className="text-center text-xl font-bold uppercase">Tools</h2>
-                            <div className='flex gap-12'>
-                                <div className='grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 xxs:grid-cols-3'>
-                                    <div className='m-8'>
+                    <div className="space-y-2">
+                        <h2 className="text-center text-xl font-bold uppercase ">Tools</h2>
+                        <div className=''>
+                            <div className='grid grid-cols-3  justify-items-center gap-2 text-lg font-semibold capitalize'>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={justgit} alt='react'></img>
-                                        <p className='text-center text-gray-500 font-bold '>Git</p>
+                                        <p className='text-center text-gray-500 font-bold '>GIT</p>
                                     </div>
-                                    <div className='m-8'>
+                                </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={Github} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Github</p>
                                     </div>
-                                    <div className='m-8'>
+                                </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={firebase} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Firebase</p>
                                     </div>
-                                    <div className='m-8'>
+                                </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={figma} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Figma</p>
                                     </div>
-                                    <div className='m-8'>
+                                </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={netlify} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Netlify</p>
                                     </div>
-                                    {/* <div className='m-8'>
+                                </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>React</p>
-                                    </div> */}
+                                    </div>
+                                </div>
+                                <div className='md:px-6'>
+                                    <div className='grid gap-1 justify-items-center'>
+                                        <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
+                                        <p className='text-center text-gray-500 font-bold '>React</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
