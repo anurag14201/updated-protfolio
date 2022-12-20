@@ -10,6 +10,7 @@ import emailjs from '@emailjs/browser';
 import Typewriter from 'typewriter-effect';
 import { Parallax } from 'react-parallax';
 import hire from '../img/wtb.png'
+import giff from '../img/hey.gif'
 import './Contract.css'
 
 
@@ -55,7 +56,7 @@ const Contract = () => {
                         /></h1>
                     </div>
                     <div>
-                        <h1 className='text-center m-8 pt-32 text-3xl font-bold text-white uppercase'>
+                        <h1 className='text-center m-8 pt-24 text-3xl font-bold text-white uppercase'>
                             HIRE
                         </h1>
                     </div >
@@ -74,6 +75,10 @@ const Contract = () => {
                                 <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white text-lg font-bold m-2 p-2 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300'>Send</button>
                             </div>
                         </form>
+                        <div>
+                            <img className='w-80' src={giff} alt="gif"></img>
+
+                        </div>
                     </div>
 
                 </div>
