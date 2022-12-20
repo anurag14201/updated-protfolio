@@ -75,7 +75,7 @@ const Skill = () => {
             </div>
 
             <div>
-                <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1  '>
+                <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1'>
                     <div className="card w-full bg-base-100">
                         <div className="card-body">
                             <h2 className="text-center text-xl font-bold uppercase ">Front-End</h2>
