@@ -61,13 +61,13 @@ const Contract = () => {
                 </div >
                 <div className='grid lg:col-6 md:col-5 justify-items-center' >
                     <form ref={form} onSubmit={sendEmail}>
-                        <input className='border-2 m-2 w-96 rounded-lg' type="text" placeholder='Your name' required name='client-name' id='validationCustom01' />
+                        <input className='border-2 m-2 lg:w-96 md:w-96 sm:w-64 rounded-lg' type="text" placeholder='Your name' required name='client-name' id='validationCustom01' />
                         <br></br>
 
-                        <input className='border-2 m-2 w-96 rounded-lg' type="email" placeholder='Your E-mail' required name='email' id='validationCustom02' />
+                        <input className='border-2 m-2 lg:w-96 md:w-96 sm:w-64 rounded-lg' type="email" placeholder='Your E-mail' required name='email' id='validationCustom02' />
                         <br></br>
 
-                        <textarea className='border-2 m-2 w-96 h-28 rounded-lg' placeholder='Type the message here' required name='message' id='validationCustom03'>
+                        <textarea className='border-2 m-2 lg:w-96 md:w-96 sm:w-64 h-28 rounded-lg' placeholder='Type the message here' required name='message' id='validationCustom03'>
                         </textarea>
                         <br></br>
                         <div className='text-center'>

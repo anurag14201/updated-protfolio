@@ -64,7 +64,7 @@ const Skill = () => {
                     <div className="card-body">
                         <h2 className="uppercase text-center font-medium text-xl text-gray-700">Download CV</h2>
                         <div className='text-center'>
-                            <a className='bg-info w-32 text-center text-white font-bold rounded-full p-2' href={mypdf} download='My_file.pdf'>Resume</a>
+                            <a className='bg-info w-32 text-center text-white font-bold rounded-full p-2 m-2' href={mypdf} download='My_file.pdf'>Resume</a>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ const Skill = () => {
                         <div className="card-body">
                             <h2 className="text-center text-xl font-bold uppercase ">Front-End</h2>
                             <div className=''>
-                                <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3'>
+                                <div className='grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 xxs:grid-cols-3'>
                                     <div className='m-8'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={ReactImg} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>React</p>
@@ -122,7 +122,7 @@ const Skill = () => {
                         <div className="card-body">
                             <h2 className="text-center text-xl font-bold uppercase">Back-End</h2>
                             <div className='flex gap-12'>
-                                <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3'>
+                                <div className='grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 xxs:grid-cols-3'>
                                     <div className='m-8'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={nodejs} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Node JS</p>
@@ -155,7 +155,7 @@ const Skill = () => {
                         <div className="card-body">
                             <h2 className="text-center text-xl font-bold uppercase">Tools</h2>
                             <div className='flex gap-12'>
-                                <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3'>
+                                <div className='grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 xxs:grid-cols-3'>
                                     <div className='m-8'>
                                         <img className='lg:w-12 md:w-12 sm:w-12' src={justgit} alt='react'></img>
                                         <p className='text-center text-gray-500 font-bold '>Git</p>
