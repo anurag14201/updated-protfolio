@@ -6,8 +6,11 @@ import whatsapp from "../img/Icons/whatsappng.png";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import emailjs from '@emailjs/browser';
-import wtb from '../img/wtb.png';
+// import wtb from '../img/wtb.png';
 import Typewriter from 'typewriter-effect';
+import { Parallax } from 'react-parallax';
+import hire from '../img/wtb.png'
+import './Contract.css'
 
 
 
@@ -39,44 +42,42 @@ const Contract = () => {
 
         <div>
             <h1 className='text-center m-8 pt-32 text-3xl font-bold text-gray-600 uppercase'>Contract</h1>
-            <div className='h-full w-full' style={{
-                backgroundImage: "url(" + wtb + ")",
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat'
-            }}>
+            <Parallax className='img lg:w-full md:w-32' strength={-800} bgImage={hire}>
+
                 <div>
-                    <h1 className='text-center font-bold text-transparent text-3xl text-white pt-12'><Typewriter
-                        options={{
-                            strings: ["Let's have a cup of tea or coffee", "Get in Touch now", "Have an idea?Then Tell me about it."],
-                            autoStart: true,
-                            loop: true,
-                        }}
-                    /></h1>
+                    <div>
+                        <h1 className='text-center font-bold text-transparent text-3xl text-white pt-12'><Typewriter
+                            options={{
+                                strings: ["Let's have a cup of tea or coffee", "Get in Touch now", "Have an idea?Then Tell me about it."],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        /></h1>
+                    </div>
+                    <div>
+                        <h1 className='text-center m-8 pt-32 text-3xl font-bold text-white uppercase'>
+                            HIRE
+                        </h1>
+                    </div >
+                    <div className='grid lg:col-6 md:col-5 justify-items-center' >
+                        <form ref={form} onSubmit={sendEmail}>
+                            <input className='border-2 m-2 lg:w-96 md:w-96 sm:w-64 rounded-lg' type="text" placeholder='Your name' required name='client-name' id='validationCustom01' />
+                            <br></br>
+
+                            <input className='border-2 m-2 lg:w-96 md:w-96 sm:w-64 rounded-lg' type="email" placeholder='Your E-mail' required name='email' id='validationCustom02' />
+                            <br></br>
+
+                            <textarea className='border-2 m-2 lg:w-96 md:w-96 sm:w-64 h-28 rounded-lg' placeholder='Type the message here' required name='message' id='validationCustom03'>
+                            </textarea>
+                            <br></br>
+                            <div className='text-center'>
+                                <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white text-lg font-bold m-2 p-2 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300'>Send</button>
+                            </div>
+                        </form>
+                    </div>
+
                 </div>
-                <div>
-                    <h1 className='text-center m-8 pt-32 text-3xl font-bold text-white uppercase'>
-                        HIRE
-                    </h1>
-                </div >
-                <div className='grid lg:col-6 md:col-5 justify-items-center' >
-                    <form ref={form} onSubmit={sendEmail}>
-                        <input className='border-2 m-2 lg:w-96 md:w-96 sm:w-64 rounded-lg' type="text" placeholder='Your name' required name='client-name' id='validationCustom01' />
-                        <br></br>
-
-                        <input className='border-2 m-2 lg:w-96 md:w-96 sm:w-64 rounded-lg' type="email" placeholder='Your E-mail' required name='email' id='validationCustom02' />
-                        <br></br>
-
-                        <textarea className='border-2 m-2 lg:w-96 md:w-96 sm:w-64 h-28 rounded-lg' placeholder='Type the message here' required name='message' id='validationCustom03'>
-                        </textarea>
-                        <br></br>
-                        <div className='text-center'>
-                            <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white text-lg font-bold m-2 p-2 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300'>Send</button>
-                        </div>
-                    </form>
-                </div>
-
-            </div>
+            </Parallax>
 
             <div className="flex flex-col w-full lg:flex-row m-8 pt-32">
                 <div className="grid flex-grow h-full card  rounded-box place-items-center">
