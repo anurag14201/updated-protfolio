@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
+import loves from '../img/love.gif'
 
 
 const NavBar = () => {
@@ -28,7 +29,7 @@ const NavBar = () => {
                             autoStart: true,
                             loop: true,
                         }}
-                    /></Link>
+                    /><img className='w-12' src={loves} alt="gif"></img></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
