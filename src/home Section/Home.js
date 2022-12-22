@@ -12,13 +12,10 @@ const Home = () => {
     return (
         <div>
             <div className='text-start pt-24 m-24' data-aos="fade-up">
-                <h1 className='text-4xl font-medium'>Hello!</h1>
-                <br></br>
-                <h1 className='text-5xl'>I'm <span className='font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-red-300 to-green-600	'>Anurag Datta</span>,</h1>
-                <br></br>
+                <h1 className='text-3xl'>Hello! I'm <span className='font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-red-300 to-green-600	'>Anurag Datta</span>,</h1>
                 <h1 className='text-5xl font-bold text-gray-700'>A Software Engineer and a Full stack Web developer.</h1>
-                <h1 className='font-medium text-3xl'>I make many Featuristic <span className='font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"'>Websites.</span>Now Days I am Learning new things.<span className='font-bold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"'>Hakerthon and Codeforce</span> my best friends</h1>
-                {/* <h1 className='text-xl m-5 font-small text-gray-700	'>I create beautiful & functional websites for small businesses. Below are a few service i provide.</h1> */}
+                <h1 className='text-xl m-5 font-small text-gray-700'>I create many Featuristic Websites.Now Days I am Learning new things.Hakerthon and Codeforce my best friends</h1>
+                {/* <h1 className='text-xl m-5 font-small text-gray-700	'>I create beautiful & functional websites for my own project and businesses. Below are a few service i provide.</h1> */}
             </div>
             <div className='m-8 pt-64'>
                 <Skill></Skill>
