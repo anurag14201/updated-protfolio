@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Typewriter from 'typewriter-effect';
 import loves from '../img/love.gif'
+import Typewriter from 'typewriter-effect';
 
 
 const NavBar = () => {

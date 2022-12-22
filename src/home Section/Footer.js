@@ -1,12 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import love from '../img/love.gif'
+import './Link.css'
 
 const Footer = () => {
     return (
         <div>
             <footer className="footer items-center p-4 bg-neutral text-neutral-content">
                 <div className="items-center grid-flow-col">
-                    <p>Copyright © 2022 - All right reserved</p>
+                    <p>Copyright © 2022 - All right reserved by <a href="https://www.facebook.com/anurag.datta.988/" data-replace="Anurag Datta" target='_blank' rel='noopener noreferrer'><span className='text-red-500'>Anurag Datta</span></a></p>
                     <img className='w-8' src={love} alt="gif"></img>
                 </div>
                 <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
