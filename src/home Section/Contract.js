@@ -101,7 +101,7 @@ const Contract = () => {
                         <figure><img className='w-24' src={location} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="text-center font-medium text-xl">Location</h2>
-                            <p className='text-center'>Ghulshan-2,Dhaka,Bangladesh</p>
+                            <p className='text-center'>North-Baridhara,Dhaka,Bangladesh</p>
 
                         </div>
                     </div>

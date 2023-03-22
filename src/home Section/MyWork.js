@@ -60,71 +60,71 @@ const MyWork = () => {
                 <div className="card card-compact w-full bg-base-100 shadow-xl" data-aos="fade-left">
                     <figure><img src={work3} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">School Para Puja </h2>
+                        <h2 className="card-title">Food house </h2>
                         <p><button className="btn-info rounded w-16">JavaScript</button></p>
                     </div>
                 </div>
                 <div className="card card-compact w-full bg-base-100 shadow-xl" data-aos="fade-right">
                     <figure><img src={work4} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">School Para Puja </h2>
+                        <h2 className="card-title">Football Mania </h2>
                         <p><button className="btn-info rounded w-16">JavaScript</button></p>
                     </div>
                 </div>
                 <div className="card card-compact w-full bg-base-100 shadow-xl" data-aos="fade-up">
                     <figure><img src={work5} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">School Para Puja </h2>
+                        <h2 className="card-title">All in One Store </h2>
                         <p><button className="btn-info rounded w-16">JavaScript</button></p>
                     </div>
                 </div>
                 <div className="card card-compact w-full bg-base-100 shadow-xl" data-aos="fade-left">
                     <figure><img src={work6} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">School Para Puja </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="card-title">Wedding Dairy </h2>
+                        <p></p>
                     </div>
                 </div>
                 <div className="card card-compact w-full bg-base-100 shadow-xl" data-aos="fade-right">
                     <figure><img src={work7} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">School Para Puja </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="card-title">Weather Podcast </h2>
+                        <p></p>
                     </div>
                 </div>
                 <div className="card card-compact w-full bg-base-100 shadow-xl " data-aos="fade-up">
                     <figure><img src={work8} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">School Para Puja </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="card-title">Budget Calculator </h2>
+                        <p></p>
                     </div>
                 </div>
                 <div className="card card-compact w-full bg-base-100 shadow-xl" data-aos="fade-left">
                     <figure><img src={work9} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">School Para Puja </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="card-title">Auto Pin Builder </h2>
+                        <p></p>
                     </div>
                 </div>
                 <div className="card card-compact w-full bg-base-100 shadow-xl" data-aos="fade-right">
                     <figure><img src={work10} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">School Para Puja </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="card-title">Panda World </h2>
+                        <p></p>
                     </div>
                 </div>
                 <div className="card card-compact w-full bg-base-100 shadow-xl" data-aos="fade-up">
                     <figure><img src={work11} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">School Para Puja </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="card-title">Insta-Copy </h2>
+                        <p></p>
                     </div>
                 </div>
                 <div className="card card-compact w-full bg-base-100 shadow-xl" data-aos="fade-left">
                     <figure><img src={work12} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title">School Para Puja </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 className="card-title">FIFA 2022  </h2>
+                        <p></p>
                     </div>
                 </div>
             </div>
