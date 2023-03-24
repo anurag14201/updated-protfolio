@@ -3,7 +3,7 @@ import "aos/dist/aos.css"
 import React, { useEffect } from 'react';
 import Skill from './Skill';
 import { Parallax } from 'react-parallax';
-import { opsbro } from '../img/Moon with front.jpg'
+import opsbro from '../img/Moon with front.jpg'
 
 
 
