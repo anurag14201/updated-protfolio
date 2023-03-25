@@ -3,7 +3,9 @@ import "aos/dist/aos.css"
 import React, { useEffect } from 'react';
 import Skill from './Skill';
 import { Parallax } from 'react-parallax';
-import opsbro from '../img/Moon with front.jpg'
+import opsbro from '../img/Moon with front.jpg';
+import './Contract.css'
+
 
 
 
@@ -14,7 +16,7 @@ const Home = () => {
     }, []);
     return (
         <div>
-            <Parallax className='img lg:w-full md:w-32' strength={-800} bgImage={opsbro}>
+            <Parallax className='img' strength={-800} bgImage={opsbro}>
 
             </Parallax>
             <div className='text-start pt-24 m-24' data-aos="fade-up">
